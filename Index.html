@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Espacial Gamer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="stars"></canvas>  <div class="auth-container" id="auth-container">
+    <h1 class="title">Tienda Espacial</h1>
+    <input type="email" id="email" placeholder="Correo" />
+    <input type="password" id="password" placeholder="Contraseña" />
+    <button id="loginBtn">Iniciar Sesión</button>
+    <button id="registerBtn" class="secondary">Registrarse</button>
+    <p id="auth-msg"></p>
+  </div>  <div class="app" id="app" style="display:none;">
+    <header>
+      <h2 class="neon">Bienvenido, <span id="userEmail"></span></h2>
+      <h3>Saldo: <span id="userBalance">0</span> créditos</h3>
+      <button id="logoutBtn">Cerrar Sesión</button>
+    </header><section class="products" id="products"></section>
+
+  </div>  <script src="
